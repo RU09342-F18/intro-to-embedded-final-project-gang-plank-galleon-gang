@@ -1,2 +1,9 @@
 This is the repository that contains the full scripts that control the high level state machine behavior of the Ocarina of Time 
 Musical lock, created by Ian Moffitt and Joe McNatt.
+
+The system operates a lock system which is actuated by either a series of 6 buttons, or a microphone and one button depending on the
+mode of operation. The system works without fail while in button mode so long as the hardware is setup correctly.
+
+Differences between Modes
+While in button mode the system treats individual inputs as passing in an average frequency correlating to the button. When the system is
+in microphone operation the system averages out the frequency over a time period to determine the note. 
